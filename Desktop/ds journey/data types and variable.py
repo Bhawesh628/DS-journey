@@ -1,5 +1,5 @@
 
-# data types and variables task
+# practising code data types and variables task
 
 coustmer_name = "Bhawesh"                                        
 coffee_count = 4
@@ -8,3 +8,8 @@ has_discount = True
 
 total_price = coffee_count * coffee_price
 print(f"Hi {coustmer_name}, your total today is {total_price}!")
+x = "4"
+y = 4
+result = int(x) + y
+print(result)
+print(type(result))
