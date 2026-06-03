@@ -5,7 +5,7 @@ name = input("enter a name")
 adjective = input("enter an adjective (describing word) :")
 number = int(input("enter a number: "))
 
-plural_noun = input("enter a plural noun :")
+plural_noun = input("enter a plural_noun :")
 
 print(f"Yesterday, {name} found a {adjective} box in the backyard. ")
 print(f" inside, there were exactly {number} shiny {plural_noun} ")
