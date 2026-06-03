@@ -12,3 +12,15 @@ print(f" inside, there were exactly {number} shiny {plural_noun} ")
 #result 
 Yesterday,  bhawesh found a glowing box in the backyard. 
  inside, there were exactly 2 shiny robots 
+
+# print(10 + 2)
+# print(2*2)
+# print(4-2)
+# print(4/2)
+
+# print("5" + "5")
+
+# print("ha" * 10)
+# print("my name is bhawesh " * 5)
+
+print(11 % 2)
