@@ -1,4 +1,4 @@
-PRACTISE PROBLEM #1
+PRACTISE PROBLEMS
 I'm going to build a simple program that asks the user for a few words, stores them in variables, and then plugs them into a funny story.
 
 name = input("enter a name")
@@ -24,3 +24,15 @@ Yesterday,  bhawesh found a glowing box in the backyard.
 # print("my name is bhawesh " * 5)
 
 print(11 % 2)
+
+Imagine you have 23 slices of pizza and you are splitting them equally among 5 friends.
+# Write a one-line program using the % sign to find out how many slices of pizza will be left over in the box.
+# print(23%5)
+
+# You are building a weather app. The user inputs the temperature in Celsius,
+#  and your program needs to convert it to Fahrenheit.The algebraic formula to convert Celsius to Fahrenheit
+ 
+celcius = 20 
+farhenheit = (celcius * 9/5+32)
+print(farhenheit)
+
