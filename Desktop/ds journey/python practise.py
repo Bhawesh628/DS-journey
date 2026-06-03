@@ -39,5 +39,10 @@ celcius = 20
 farhenheit = (celcius * 9/5+32)
 print(farhenheit)
 print(f"The temperature is {farhenheit} degrees.")
+if farhenheit > 60:
+    print("It is warm outside, wear a t-shirt!")
+else:
+    print("It is cold outside, bring a jacket!")
+
 
 
