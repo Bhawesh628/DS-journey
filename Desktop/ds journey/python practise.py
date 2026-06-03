@@ -35,4 +35,9 @@ Imagine you have 23 slices of pizza and you are splitting them equally among 5 f
 celcius = 20 
 farhenheit = (celcius * 9/5+32)
 print(farhenheit)
+celcius = 20 
+farhenheit = (celcius * 9/5+32)
+print(farhenheit)
+print(f"The temperature is {farhenheit} degrees.")
+
 
