@@ -36,3 +36,24 @@
 
 # for z in range(5):
 #  print(f" hii im starting now {z}")
+# for numerical in range(4):
+#  print(f"hi this is your outcome {numerical}" )
+  
+# while loop
+
+# 1. Starting point
+count = 1  
+
+# 2. The condition (Keep going while count is less than or equal to 3)
+# while count <= 3:  
+#     print(f"The count is {count}")
+    
+#     # 3. Changing the variable (Add 1 to count)
+#     count = count + 1  
+
+# print("Loop finished!")
+
+
+
+# 1. You start the game with 3 lives
+lives = 3
