@@ -50,21 +50,20 @@ while count <= 3:
     
 #     # 3. Changing the variable (Add 1 to count)
     count = count + 1  
+# 1. You start the game with 3 lives
+lives = 3
 # 2. As long as you have lives left, the game keeps going
-# while lives > 0:
-#     print(f"You are playing the game! Remaining lives: {lives}")
+while lives > 0:
+    print(f"You are playing the game! Remaining lives: {lives}")
     
 #     # 3. Uh oh! You hit a obstacle and lose 1 life
 #     print("Oops! You got hit by a monster! 👾")
-#     lives = lives - 1 
+    lives = lives - 1 
 
 # # 4. Once your lives hit 0, the loop stops, and this runs:
-# print("GAME OVER ")
+print("GAME OVER ")
 
 
 print("Loop finished!")
 
 
-
-# 1. You start the game with 3 lives
-lives = 3
