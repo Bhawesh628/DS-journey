@@ -13,3 +13,26 @@
 #     y = x + 3
 #     print(y)
 #     print(f"{y} heyaa this thing works")
+ battery = 97
+
+# # Keep looping AS LONG AS battery is less than 100
+# while battery < 100:
+#     print(f"Charging... Current battery: {battery}%")
+#     battery = battery + 1  # This increases the battery by 1 each time
+
+# print("100% Fully Charged! 🔋")
+
+# for x in range(3):
+#     print(x)
+
+# for y in range(4):
+#     print(y)
+
+# for z in range(5):
+#  print(f" this is your {z}  conclusion ")
+
+# for z in range(5):
+#     print(f"z")
+
+# for z in range(5):
+#  print(f" hii im starting now {z}")
