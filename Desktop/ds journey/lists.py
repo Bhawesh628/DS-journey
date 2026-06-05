@@ -43,3 +43,16 @@ names.append("bhawesh")
 names.append("jack")
 names.append("daniel")
 second_name = names[2]
+
+
+print(numbers)
+print(strings)
+print(second_name)
+for x in numbers:
+    print(x)
+for x in strings:
+    print(x)
+for x in names:
+    print(x)
+print(second_name)
+
