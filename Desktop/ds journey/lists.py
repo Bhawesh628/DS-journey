@@ -27,3 +27,19 @@ print(my_costume[1])
 print(my_costume[2])
 for x in my_costume:
     print(x)
+
+
+numbers = []
+strings = []
+names = []
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+strings.append("hello bois")
+strings.append("wssup")
+ 
+names.append("bhawesh")
+names.append("jack")
+names.append("daniel")
+second_name = names[2]
