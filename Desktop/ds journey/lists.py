@@ -56,3 +56,24 @@ for x in names:
     print(x)
 print(second_name)
 
+
+grocery = []
+fruits  = []
+books = []
+grocery.append("todays special")
+grocery.append("sweet dish essentials")
+grocery.append("meat")
+fruits.append("banana")
+fruits.append("orange")
+fruits.append("papaya")
+books.append("horror")
+books.append("novel")
+
+today_special = grocery [1]
+for x in grocery:
+    print(x)
+for x in fruits:
+    print(x)
+for x in books:
+    print(x)
+print(today_special)
