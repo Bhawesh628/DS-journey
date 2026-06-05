@@ -15,3 +15,15 @@ grocerylist.append("papaya")
 print(grocerylist[0])
 print(grocerylist[1])
 print(grocerylist[2])
+
+
+my_costume = []
+my_costume.append("blazer")
+my_costume.append("shirts")
+my_costume.append("pants")
+print("here is the list of my todays outfit")
+print(my_costume[0])
+print(my_costume[1])
+print(my_costume[2])
+for x in my_costume:
+    print(x)
