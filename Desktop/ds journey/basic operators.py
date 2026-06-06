@@ -23,3 +23,20 @@ print(y)
 
 lotsofhellos = "hello " * 3
 print(lotsofhellos)
+greetings_from_my_side = "namaste "*8
+print(greetings_from_my_side)
+
+even_number = [2,4,5,6,7,8,10]
+odd_number = [3,5,7]
+combine = even_number + odd_number
+print(combine)
+for x in even_number:
+    print(x)
+for x in odd_number:
+    print(x)
+
+list = [1,2,3] * 3
+print(list)
+print([1,2,3,4]*3)
+x = object()
+print(x)
