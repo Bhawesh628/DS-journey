@@ -56,3 +56,16 @@ name = "bhawesh"
 ending = name[-4:]
 print(ending)
 
+city = "banglore"
+desire_outcome = city[-5:]
+print(desire_outcome)
+
+sentence = " las vegas is really garbage now"
+desired_outcome = sentence[10:]
+print(desired_outcome)
+
+assumption = "vegas is full of badass bois"
+wanted =  assumption[:4]
+print(wanted)
+ 
+
