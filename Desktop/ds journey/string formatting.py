@@ -45,3 +45,14 @@ print(" these are even numbers: %s" %collection)
 
 collection = [3,5,7,9]
 print(" these are collection of odd numbers %s" %collection)
+domain = "google.com"
+
+# PRACTICAL TASK: Grab the last 4 characters (".com")
+extension = domain[-4:]
+
+print(extension)
+
+name = "bhawesh"
+ending = name[-4:]
+print(ending)
+
