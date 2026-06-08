@@ -139,5 +139,32 @@ for number in range(4,7):
 even = ["2","4,""6","8"]
 for x in even:
     print(x)
+count = 0
+while True:
+    print(count)
+    count += 1
+#     if count >= 5:
+        break
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count>5:
+        break
+
+while True:
+    user_input = input("Type 'exit' to stop the loop: ")
+    
+    if user_input.lower() == 'exit':
+        print("Goodbye!")
+   
+    
+
+    
+while True:
+    user_input = input("Type 'done' to stop the loop: ")
+    if user_input.lower() == 'done':
+        print("you done bro")
+        break
 
 
