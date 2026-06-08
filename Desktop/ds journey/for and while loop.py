@@ -166,5 +166,9 @@ while True:
     if user_input.lower() == 'done':
         print("you done bro")
         break
+     while True:
+    user_input = input("Type 'stop' to stop the loop")
+    if user_input.lower() == 'stop':
+        print("move your ass up")
 
 
