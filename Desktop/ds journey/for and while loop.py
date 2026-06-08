@@ -19,6 +19,26 @@ for count in range(10):
 while battery < 100:
     print(f"Charging... Current battery: {battery}%")
     battery = battery + 1  # This increases the battery by 1 each time
+for x in range(3,6):
+    print(x)
+
+for x in range(9):
+    print(x)
+
+for x in range(5,7):
+    print(x)
+
+for x in range(3,8,2):
+    print(x)
+
+for x in range(3,8,2):
+    print(x)
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
 
 print("100% Fully Charged! ")
 
