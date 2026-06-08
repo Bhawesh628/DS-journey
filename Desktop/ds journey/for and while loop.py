@@ -104,5 +104,24 @@ for x in prime:
     print(x)
 for x in range(9):
     print(x)
+count = 2
+while count <7:
+    print(count)
+    count = count +1
+
+count = 2
+while count <7:
+    print(count)
+    count = 1 + count
+
+count = 10
+while count >1:
+    print(count)
+    count = count - 1
+
+countdown = 20
+while countdown>2:
+    print(countdown)
+    countdown = countdown-1
 
 
