@@ -66,4 +66,23 @@ print("GAME OVER ")
 
 print("Loop finished!")
 
+primes = [2, 3, 5, 7]
+for prime in primes:
+    print(prime)
+
+
+name = ["bhawesh , dany , jack , chase"]
+for x in name:
+    print(x)
+
+name = ["bhawesh", "dany" ,"jack" ,"chase"]
+for x in name:
+    print(x)
+
+prime = [2,3,5,7]
+for x in prime:
+    print(x)
+for x in range(9):
+    print(x)
+
 
