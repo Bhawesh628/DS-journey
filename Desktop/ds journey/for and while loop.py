@@ -123,5 +123,21 @@ countdown = 20
 while countdown>2:
     print(countdown)
     countdown = countdown-1
+countdown = 20
+while countdown<30:
+    print(countdown)
+    countdown = 1+ countdown
+    
+countdown = 30
+while countdown<35:
+    print(countdown)
+    countdown = 1 + countdown
+
+for number in range(4,7):
+    print (number)
+
+even = ["2","4,""6","8"]
+for x in even:
+    print(x)
 
 
