@@ -170,5 +170,16 @@ while True:
     user_input = input("Type 'stop' to stop the loop")
     if user_input.lower() == 'stop':
         print("move your ass up")
+count = 10
+while True:
+    if count>15:
+        break
+    count += 1 
+    print(count)
 
+
+while True:
+    user_input = input("type 'done' to stop the loop:")
+    if user_input.lower() == 'done':
+        print("you are done buddy")
 
