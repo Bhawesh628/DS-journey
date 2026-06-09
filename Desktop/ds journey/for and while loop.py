@@ -182,4 +182,13 @@ while True:
     user_input = input("type 'done' to stop the loop:")
     if user_input.lower() == 'done':
         print("you are done buddy")
+     for x in range(10):
+    if x % 2 == 0:
+        continue
+    print(x)
+ 
+user_input = input(int)
+for x in user_input:
+    print("type your number")
+
 
