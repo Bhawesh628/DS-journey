@@ -60,6 +60,14 @@ for number in numbers:
         continue
     print(number)
 
+try:
+    integer = int(input("enter your lucky number: "))
+    if integer % 2 == 0:
+        print(f"{integer} is an even number")
+    else:
+        print(f"{integer} is an odd number" )
+except ValueError:
+    print("invalid input.Please enter a valid number")
 
 
 
