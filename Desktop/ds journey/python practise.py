@@ -65,6 +65,19 @@ try:
     if integer % 2 == 0:
         print(f"{integer} is an even number")
     else:
+          print(f"{integer} is an odd number" )
+except ValueError:
+    print("invalid input.Please enter a valid number")
+
+     
+try:
+    number = int(input("enter your number: "))
+    if number % 2 != 0:
+        print(f"{number} is an odd number")
+    else:
+        print(f"{number} is not an odd number")
+except ValueError:
+    print("invalid input. type integer")
         print(f"{integer} is an odd number" )
 except ValueError:
     print("invalid input.Please enter a valid number")
