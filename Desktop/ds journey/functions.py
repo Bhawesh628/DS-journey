@@ -4,3 +4,7 @@ def greet_user():
    
 greet_user()
 
+
+def homie_calling():
+    print("yo homies assemble")
+homie_calling() 
