@@ -28,3 +28,10 @@ bill_one = calculate_total_bill(50, 15, "save10")
 print("first_bill_total:" , bill_one)
 bill_two = calculate_total_bill(100, 15, "welcome5")
 print("secod_bill_total:", bill_two)
+
+def get_passing_grade(all_score):
+    passing_scores = []
+    for score in all_score:
+     if score >= 70:
+        passing_scores.append(score)
+    return passing_scores
