@@ -35,3 +35,6 @@ def get_passing_grade(all_score):
      if score >= 70:
         passing_scores.append(score)
     return passing_scores
+    classroom_grades = [85, 62, 91, 45, 73, 68, 100]
+passed_students = get_passing_grade(classroom_grades)
+print("Passing grades are:", passed_students)
