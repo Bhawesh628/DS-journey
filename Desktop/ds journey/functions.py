@@ -57,3 +57,9 @@ def evenOdd(x):
 
 print(evenOdd(16))
 print(evenOdd(7))
+
+def student(fname, lname):
+    print(fname, lname)
+
+student(fname= ' bhawesh', lname='man of no religion')
+student(lname='the man of no religion ', fname= 'bhawesh')
