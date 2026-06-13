@@ -63,3 +63,14 @@ def student(fname, lname):
 
 student(fname= ' bhawesh', lname='man of no religion')
 student(lname='the man of no religion ', fname= 'bhawesh')
+
+
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+
+print("Case-1:")
+nameAge("bhawesh ", 27)
+
+print("Case-2:")
+nameAge('kendrick', "21")
