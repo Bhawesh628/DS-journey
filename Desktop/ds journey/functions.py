@@ -48,3 +48,12 @@ def make_little_box(text):
 make_little_box("GAME OVER")
 make_little_box("LOADING...")
 make_little_box("CONGRATULATIONS!")
+
+def evenOdd(x):
+    if (x % 2 == 0):
+        return "Even"
+    else:
+        return "Odd"
+
+print(evenOdd(16))
+print(evenOdd(7))
