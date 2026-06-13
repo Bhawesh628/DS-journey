@@ -38,3 +38,13 @@ def get_passing_grade(all_score):
     classroom_grades = [85, 62, 91, 45, 73, 68, 100]
 passed_students = get_passing_grade(classroom_grades)
 print("Passing grades are:", passed_students)
+
+def make_little_box(text):
+   length = len(text)
+   border = "+" + "-" *(length + 2) + "+"
+   print(border)
+   print(f"|{text}|")
+   print(text)
+make_little_box("GAME OVER")
+make_little_box("LOADING...")
+make_little_box("CONGRATULATIONS!")
