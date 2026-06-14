@@ -81,6 +81,35 @@ except ValueError:
         print(f"{integer} is an odd number" )
 except ValueError:
     print("invalid input.Please enter a valid number")
+class Scores:
+    count = 0 # class variable
+    all_student_lists = []
+    def __init__(self, serial_num, name, gender, date_of_birth, location, maths_marks,physics_marks,chemistry_marks):
+        self.serial_num = serial_num
+        self.name = name
+        self.gender = gender
+        self.date_of_birth = date_of_birth
+        self.location = location
+        self.maths_marks = maths_marks
+        self.physics_marks = physics_marks
+        self.chemistry_marks = chemistry_marks
+        self.total_marks = maths_marks + physics_marks + chemistry_marks
 
+        Scores.count += 1
+        # Each instantiation in class keeps a record of the count
+        Scores.all_student_lists.append(self)
+        # Each instatiation in class updates the student to the all_students_list
+
+    # Let's just define a class method to calculate the average marks of any subject
+    @classmethod
+    def avgmarks(cls, subject_marks):
+        total_subject_marks = 0
+        for student in Scores.all_student_lists:
+            total_subject_marks += getattr(student, subject_marks)
+        print(f"The average {subject_marks} is {total_subject_marks / len(Scores.all_student_lists)}")
+
+    # Creating a way to view each student card (method) 
+    def display_student_card(self):
+        
 
 
