@@ -165,5 +165,23 @@ print (count)
 print(Scores.count)
 print(len(Scores.all_student_lists))
         
+# Q2: Find the average maths marks
+
+# Declaration and Initialization
+total_math_marks = 0 
+
+# Iterations 
+for students in Scores.all_student_lists:
+    total_math_marks += students.maths_marks
+
+print(f"The average total_math_marks = {total_math_marks/count}")
+
+# calling the class method
+Scores.avgmarks("maths_marks")
+Scores.avgmarks("physics_marks")
+Scores.avgmarks("chemistry_marks")
+
+# Displaying the card calling the display method
+s1.display_student_card()
 
 
