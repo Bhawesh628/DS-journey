@@ -153,7 +153,17 @@ s26 = Scores(26,"JK" ,'M', "22 Jul","Chennai", 74, 71, 82)
 s27 = Scores(27,"Jagan" ,'M', "4 Mar","Madurai", 81, 76, 52)
 s28 = Scores(28,"Nisha" ,'F', "10 Sep","Madurai", 74, 83, 83)
 s29 = Scores(29,"Naveen" ,'M', "13 Oct","Vellore", 72, 66, 81)
-        
+        # students_list = [s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,s24,s25,s26,s27,s28,s29]
+
+
+# Q1: Count the number of cards
+
+count = 0
+for _ in Scores.all_student_lists:
+    count += 1
+print (count)
+print(Scores.count)
+print(len(Scores.all_student_lists))
         
 
 
