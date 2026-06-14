@@ -110,6 +110,20 @@ class Scores:
 
     # Creating a way to view each student card (method) 
     def display_student_card(self):
+      print("\n=====================Student Card==========================\n")
+        print(f" Student ID : {self.serial_num}")
+        print(f" Name       : {self.name}")
+        print(f" Gender     : {self.gender}")
+        print(f" DOB        : {self.date_of_birth}")
+        print(f" Town/City  : {self.location}")
+        print("\n===========================================================\n")
+        print(f" Maths      : {self.maths_marks}")
+        print(f" Physics    : {self.physics_marks}")
+        print(f" Chemistry  : {self.chemistry_marks}")
+        print("\n===========================================================\n")
+        print(f" Total      : {self.total_marks}")
+        print("\n===========================================================\n")
+        
         
 
 
