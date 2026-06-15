@@ -175,6 +175,10 @@ for students in Scores.all_student_lists:
     total_math_marks += students.maths_marks
 
 print(f"The average total_math_marks = {total_math_marks/count}")
+for i in range(1, 5):
+    for j in range(i):
+        print(i, end=' ')
+    print()
 
 # calling the class method
 Scores.avgmarks("maths_marks")
