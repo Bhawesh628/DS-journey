@@ -184,4 +184,9 @@ Scores.avgmarks("chemistry_marks")
 # Displaying the card calling the display method
 s1.display_student_card()
 
+cnt = 0
+while (cnt < 3):
+    cnt = cnt + 1
+    print("Hello Geek")
+
 
